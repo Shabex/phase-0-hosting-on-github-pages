@@ -99,9 +99,6 @@ ul {
 }
 
 
-
-
-
 .box {
     flex: 1;
     background: #0a51cc;
@@ -127,4 +124,31 @@ ul {
         display: block;
         text-align: center;
     }
+}
+
+.footerline {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 100px;
+}
+
+ul.icons {
+    list-style: none;
+}
+
+.text {
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    height: 600px;
+    align-items: center;
 }
